@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WooCommerce Popup Notifications Documentation</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        p, ul {
+            margin-bottom: 20px;
+        }
+        code {
+            background-color: #f4f4f4;
+            padding: 2px 5px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+    <h1>WooCommerce Popup Notifications</h1>
+    <p>Description: A WordPress plugin designed to enhance the shopping experience on WooCommerce-powered websites by displaying a notification in a popup whenever a product is added to the cart.</p>
+    
+    <h2>Features</h2>
+    <ul>
+        <li>Customizable Popup Notifications</li>
+        <li>Adaptive Display Positions</li>
+        <li>Product Image Handling</li>
+        <li>Extensible through Filters</li>
+    </ul>
+    
+    <h2>Classes</h2>
+    <h3><code>WC_Popup_Notifications</code></h3>
+    <p>Main class responsible for initializing the plugin's functionality. It handles the enqueuing of scripts and styles, generates the popup notification fragment, and listens for add-to-cart actions.</p>
+    
+    <h3><code>WC_Popup_Notifications_Admin</code></h3>
+    <p>Handles the backend configuration for the plugin.</p>
+    
+    <h2>Filters</h2>
+    <p><code>wc_popup_notifications_close_after_seconds</code>: Allows changing the auto-close duration of the popup notification.</p>
+    <p><code>wc_popup_notifications_top_offset</code>: Customizes the top offset for the popup when displayed at the top of the page.</p>
+    
+    <h2>Installation</h2>
+    <ol>
+        <li>Upload the plugin files to the <code>/wp-content/plugins/woocommerce-popup-notifications</code> directory, or install the plugin through the WordPress plugins screen directly.</li>
+        <li>Activate the plugin through the 'Plugins' screen in WordPress.</li>
+        <li>Use the plugin's settings page to configure the plugin.</li>
+    </ol>
+    
+    <h2>Usage</h2>
+    <p>Once activated, the plugin works automatically by displaying a popup notification whenever a product is added to the cart. Administrators can customize the plugin's behavior through the WordPress admin panel.</p>
+    
+    <h2>License</h2>
+    <p>This plugin is licensed under the GPLv2 (or later).</p>
+    
+    <h2>Author</h2>
+    <p>Hassan Ejaz<br><a href="https://brandbees.net">https://brandbees.net</a></p>
+</body>
+</html>

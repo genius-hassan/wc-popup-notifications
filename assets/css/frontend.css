@@ -1,0 +1,56 @@
+.wc-popup-notification {
+	display: none;
+    position: fixed;
+    right: 20px;
+    width: 300px;
+    background: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    z-index: 1000;
+	background-size: cover;
+    background-position-y: center;
+}
+
+.wc-popup-top {
+    top: 20px; 
+}
+
+.wc-popup-bottom {
+    bottom: 20px;
+}
+
+p.wc-popup-price {
+    margin-bottom: 10px;
+}
+h4.wc-cart-heading, p.wc-popup-title {
+    font-weight: 600;
+    color: black;
+    font-size: 18px;
+}
+.wc-popup-image {
+    width: 80px;
+    height: 80px;
+    background: #eee;
+    margin-right: 10px;
+}
+.view-cart a {
+    background: black;
+    color: white;
+    width: 100%;
+    display: block;
+    text-align: center;
+    padding: 10px;
+}
+.wc-popup-content {
+    flex-grow: 1;
+}
+
+.wc-popup-close {
+    background: none;
+    border: none;
+    font-size: 20px;
+    line-height: 1;
+    cursor: pointer;
+}
