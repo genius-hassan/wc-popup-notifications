@@ -27,7 +27,6 @@ The main class responsible for initializing the plugin's functionality. It handl
 
 Handles the backend configuration for the plugin, allowing administrators to customize the popup notification settings.
 
-- **Note**: This class and its functionality might need to be defined based on your plugin's admin settings requirements.
 
 ## Filters
 
@@ -55,7 +54,7 @@ Handles the backend configuration for the plugin, allowing administrators to cus
 3. Use the plugin's settings page to configure the plugin (if available).
 
 ## Usage
-Once activated, the plugin works automatically by displaying a popup notification whenever a product is added to the cart. Administrators can customize the plugin's behavior through the WordPress admin panel under the plugin's settings section.
+Once activated, the plugin works automatically by displaying a popup notification whenever a product is added to the cart once its settings are defined, such as display conditions.. Administrators can customize the plugin's behavior through the WordPress admin panel under the plugin's settings section.
 
 ## License
 This plugin is licensed under the [GPLv2 (or later)](https://www.gnu.org/licenses/gpl-2.0.html).
